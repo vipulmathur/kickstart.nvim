@@ -115,6 +115,9 @@ do
   -- Enable mouse mode, can be useful for resizing splits for example!
   vim.o.mouse = 'a'
 
+  -- Set the number of lines to scroll, if the wheel is used
+  -- vim.opt.mousescroll = 'ver:1,hor:2'
+
   -- Don't show the mode, since it's already in the status line
   vim.o.showmode = false
 
@@ -1025,7 +1028,7 @@ do
   -- NOTE: You can add your own plugins, configuration, etc. in `lua/custom/plugins/*.lua`.
   --
   -- For independent modules, uncomment the convenience loader:
-  -- require 'custom.plugins'
+  require 'custom.plugins'
   --
   -- `custom.plugins` automatically loads files from that directory, but their
   -- order is unspecified. If plugins depend on each other, keep them in the same

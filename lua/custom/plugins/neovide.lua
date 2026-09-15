@@ -13,7 +13,7 @@ if vim.g.neovide then
   vim.g.neovide_padding_left = 0
 
   -- Cursor Customization
-  vim.g.neovide_cursor_animation_length = 0.13    -- Default animation speed
+  vim.g.neovide_cursor_animation_length = 0.0     -- Default animation speed
   vim.g.neovide_cursor_animate_in_insert_mode = false
   vim.g.neovide_cursor_trail_size = 0.0           -- Length of trail
   vim.g.neovide_position_animation_length = 0.0   -- Duration of window animation when changing position
